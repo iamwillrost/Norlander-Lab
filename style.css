@@ -1,2 +1,51 @@
+#header-title {
+    width: auto;
+    height: auto;
+    border: 2px solid #154279;
+    align-content: center;
+    text-align: center;
+}
 
+
+
+ul {
+    list-style-type: none;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+    
+    
+
+.main-section {
+    font-weight: bold;
+    color: blue;
+    font-style: italic;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
   
