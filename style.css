@@ -1,2 +1,102 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+}
 
-  
+header {
+  background-color: #003087;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding: 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul li {
+  width: 200px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 200px;
+}
+
+footer {
+  background-color: #003087;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Page-specific Styles */
+#content {
+  margin: 20px;
+}
+
+h1 {
+  color: #003087;
+}
+
+p {
+  color: #333;
+}
+
+/* Useful Style Changes */
+.active {
+  font-weight: bold;
+}
+
+.hovered {
+  text-decoration: underline;
+}
+
+/* IUHealth Colors */
+header {
+  background-color: #005eb8;
+}
+
+nav ul li a,
+nav ul ul li a {
+  color: #fff;
+}
+
+nav ul li a:hover,
+nav ul ul li a:hover {
+  text-decoration: none;
+  background-color: #003087;
+}
+
+footer {
+  background-color: #005eb8;
+}
